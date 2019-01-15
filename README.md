@@ -1,2 +1,5 @@
 # reactproject
-My React js project. starting with Html, Css, JavaScript &amp; React.
+{
+My React js project. starting with Html, Css, JavaScript and React;
+
+}
