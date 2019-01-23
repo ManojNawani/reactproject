@@ -1,0 +1,28 @@
+/* * is the wild card and is used for all */
+* {
+	text-align: center;
+}
+
+
+/* class="div1"    for calling a class we us a dot */
+
+.div1{
+
+	border: solid 5px purple;
+	background: rgba(255,0,0,0.2);
+}
+
+/*This will generate a bordered box with color when mouse hover.*/
+.hov:hover {
+	border: solid 4px purple;
+	background: rgba(255,0,0,0.2);
+}
+
+
+/* id="id1"      for id we use #   */
+
+#id1 {
+
+	border: solid 4px aqua;
+
+}
