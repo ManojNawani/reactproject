@@ -1,28 +1,34 @@
-/* * is the wild card and is used for all */
-* {
+
+
+h1{
+	font-family: fantasy;
 	text-align: center;
+	border-bottom: 2px solid pink;
+}
+.images{
+
+	display: flex;
+					/*To activate flexbox*/
+	flex-wrap: wrap;
+	justify-content: center;
+	
+	/*image will transform when we hover, its defined just below*/
 }
 
-
-/* class="div1"    for calling a class we us a dot */
-
-.div1{
-
-	border: solid 5px purple;
-	background: rgba(255,0,0,0.2);
+img{
+	width:200px;
+	height: 200px;
+	margin: 10px;
+	transition :all 1s;
 }
+img:hover{
+	transform:scale(1.1);
+}
+
 
 /*This will generate a bordered box with color when mouse hover.*/
-.hov:hover {
-	border: solid 4px purple;
-	background: rgba(255,0,0,0.2);
-}
 
-
-/* id="id1"      for id we use #   */
-
-#id1 {
-
-	border: solid 4px aqua;
-
+footer{
+	clear:both;
+	text-align: center;
 }
